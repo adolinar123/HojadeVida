@@ -1,0 +1,73 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
+body {
+   padding: 0%;
+   background-color:beige;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   overflow-x: hidden;
+}
+#SectionHeader {
+    color: antiquewhite;
+    float: left;
+    width: 100%;
+    background-color: rgb(78, 145, 145);
+    padding: 2%;
+}
+picture {
+    width: 7%;
+    padding: 1%;
+    background-color: darkcyan;
+    border-radius: 11%;
+    float: left;
+    margin-right: 3%;
+}
+img {
+    width: 100%;
+    border-radius: 10%;
+    float: left;
+}
+#InfBásica {
+    padding: 2%;
+    padding-bottom: 2%;
+    width: 70%;
+    
+}
+#InfBásica, ul {
+    list-style: none;
+    margin-left: 30px;
+}
+nav {
+width: 100%;
+border-top: 3px solid rgba(76, 157, 160, 0.671); 
+background-color:cadetblue; 
+}
+
+#buttonList {
+list-style-type:none;
+margin-left: 0%;
+padding: 0%;
+overflow: hidden;
+background-color:cadetblue;
+width: 100%;
+float: left;
+}
+#buttonList li {
+    float: left;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+#buttonList li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#buttonList li a:hover {
+    background-color:rgb(102, 196, 199);
+    color: antiquewhite;
+    border-radius: 10px;
+}
